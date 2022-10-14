@@ -18,7 +18,7 @@ document.getElementById("movieSubmit").addEventListener("click", function(event)
       
       results += "<h2>" + json.results[0].title; + "<h2/>";
       results += "<div></div>";
-      results += "<img src=" + json.results[0].image + ">";
+      results += "<img src=" + json.results[0].image + " class=poster>";
      
       document.getElementById("movieResults").innerHTML = results;
       
