@@ -4,6 +4,10 @@ h1 {
     text-align: center;
 }
 
+.title {
+    padding-bottom: 20px;
+}
+
 form {
     margin: center;
     position: center;
@@ -40,5 +44,10 @@ label {
 }
 
 .poster {
+    padding-top: 20px;
     width: 30vw;
+}
+
+.jumbotron {
+    background-color: #f1f1f1;
 }
