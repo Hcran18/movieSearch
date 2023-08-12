@@ -1,3 +1,7 @@
+// The IMDB API has recently been updated and now requires AWS
+// This code will not work without AWS
+// I have included a link to the new API documentation in the README.md file
+
 document.getElementById("movieSubmit").addEventListener("click", function(event) {
   event.preventDefault();
   const value = document.getElementById("movieInput").value;
